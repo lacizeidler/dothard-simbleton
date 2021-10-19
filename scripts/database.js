@@ -176,7 +176,7 @@ export const getAgents = () => {
         return copyOfAgents
 }
 
-export const findCompanyName = (nameCriteria) => {
-  const matchingCompanies = businesses.find(business => business.companyName === nameCriteria)
-  return matchingCompanies
-}
+// export const findCompanyName = (nameCriteria) => {
+//   const matchingCompanies = businesses.find(business => business.companyName === nameCriteria)
+//   return matchingCompanies
+// }

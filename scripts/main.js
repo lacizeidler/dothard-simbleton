@@ -1,25 +1,26 @@
-// import { getBusinesses } from "./database.js"
-import { moreBusinesses } from "./BusinessList.js"
-import { moreNewYorkBusinesses } from "./filteredBusinesses.js"
-import { moreManufacturingBusinesses } from "./filteredManuBusinesses.js"
+import { businessList} from "./BusinessList.js"
+import {newYorkBusinessList} from "./filteredBusinesses.js"
+import {manufacturingBusinessList} from "./filteredManuBusinesses.js"
 
-const mainContainer = document.querySelector(".main-container")
+// const mainContainer = document.querySelector("#main-container")
 
-const applicationHTML = `
-<h1>Brewed Awakenings</h1>
-<article class="details">
-    <section class="businessList--all">
-        <h2>Employees</h2>
-        ${moreBusinesses()}
-    </section>
-    <section class="businessList--newYork">
-        <h2>Employees</h2>
-        ${moreNewYorkBusinesses()}
-    </section>
-    <section class="businessList--maufacturing">
-        <h2>Employees</h2>
-        ${moreManufacturingBusinesses()}
-    </section>
-`
+// const applicationHTML = `
+// <input type="text" placeholder="Enter business name..." id="companySearch"/>
+//         <article class="foundCompanies">
+//         </article>
+//         <article class="businessList--all">
+//         ${businessList()}
+//         </article>
+//         <article class="businessList--newYork">
+//             ${newYorkBusinessList()}
+//         </article>
+//         <article class="businessList--manufacturing">
+//             ${manufacturingBusinessList()}
+//         </article>
+//         <article class="businessList--agents">
+//         </article>
+// `
 
-mainContainer.innerHTML = applicationHTML
+// businessList()
+
+// mainContainer.innerHTML = applicationHTML
